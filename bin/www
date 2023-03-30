@@ -5,7 +5,7 @@
  */
 
 var app = require('../app');
-var debug = require('debug')('s23wa46mangipudi:server');
+var debug = require('debug')('s23wa09gogineni:server');
 var http = require('http');
 
 /**
