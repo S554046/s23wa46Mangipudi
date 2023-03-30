@@ -12,9 +12,9 @@ router.get('/', function (req, res, next) {
             value=Math.round(Math.random()*999);
         }     
         res.writeHead(200, { 'Content-Type': 'text/html' });
-        res.write('Math.cos() applied to ' + value + ' is ' + Math.cos(value));
-        res.write('<br>Math.asin() applied to ' + value + ' is ' + Math.asin(10,value))
-        res.write('<br>Math.asinh() applied to ' + value + ' is ' + Math.asinh(value))
+        res.write('Math.atan() applied to ' + value + ' is ' + Math.atan(value));
+        res.write('<br>Math.exp() applied to ' + value + ' is ' + Math.exp(value))
+        res.write('<br>Math.expm1() applied to ' + value + ' is ' + Math.expm1(value))
         res.end()
     }
 
